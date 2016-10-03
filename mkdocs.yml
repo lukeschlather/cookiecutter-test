@@ -1,0 +1,5 @@
+site_name: {{ package_name }}
+pages:
+- Overview: index.md
+theme: readthedocs
+dev_addr: localhost:9876

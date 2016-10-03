@@ -1,0 +1,12 @@
+{
+  "python_version": "py34",
+  "artifact_type": "python",
+  "author": "EnergySavvy",
+  "starting_version": "'0.1' + os.environ.get('BUILD_NUMBER', '0')",
+  "url": "http://www.energysavvy.com/",
+
+  "project_name": "REPLACEME",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}"
+}
+
+
